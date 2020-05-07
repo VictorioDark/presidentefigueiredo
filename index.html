@@ -1,11 +1,145 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+<script type="text/javascript">
+function slide1(){
+	document.getElementById('imagens_passando').src="https://abrilviagemeturismo.files.wordpress.com/2016/10/01010744_1i5i6i7c5c.jpeg?quality=70&strip=info&w=925"; 
+	document.getElementById('imagens_passando').style.filter="saturate(30%)";
+	document.getElementById('imagens_passando').style.transition="4s";
+	setTimeout("slide2()", 4000)
+}
+  
+function slide2(){
+	document.getElementById('imagens_passando').src="https://3.bp.blogspot.com/-4DI1snp8jJs/VRbwaeX8SEI/AAAAAAAAGgY/8DbvCm2hU-g/s1600/IMG_1898.JPG";
+	document.getElementById('imagens_passando').style.filter="saturate(100%)";
+	document.getElementById('imagens_passando').style.transition="4s";
+	setTimeout("slide3()", 4000)
+}
+  
+function slide3(){
+	document.getElementById('imagens_passando').src="https://www.seguindoviagem.com/wp-content/uploads/2017/07/lagoa-azul-presidente-figueiredo-24-640x480.jpg";
+	document.getElementById('imagens_passando').style.filter="saturate(30%)";
+	document.getElementById('imagens_passando').style.transition="4s";
+	setTimeout("slide4()", 4000)
+}
+
+function slide4(){
+	document.getElementById('imagens_passando').src="https://s2.glbimg.com/TDoXCzAYx4csTJzdrjr0ZXDTfW4=/0x0:620x465/984x0/smart/filters:strip_icc()/s.glbimg.com/jo/g1/f/original/2014/02/26/carnachoeira.jpg";
+	document.getElementById('imagens_passando').style.filter="saturate(100%)";
+	document.getElementById('imagens_passando').style.transition="4s";
+	setTimeout("slide1()", 4000)
+}
+</script>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+	<link rel="stylesheet" type="text/css" media="screen and (min-width: 701px)" href="index.css"/>
+
+	 <link rel="stylesheet" type="text/css" media="screen and (max-width: 700px) "href="indexmobile.css"/>
+	
+	<!-- <link rel="stylesheet" type="text/css" media="screen and (min-width: 1050px)" href="indextablet.css"/> -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Frinorte</title>
+	<link href="https://fonts.googleapis.com/css2?family=Cabin&display=swap" rel="stylesheet">
 </head>
-<body>
-    <p>Olá mundo!</p>
+<body onload="slide1()">
+
+	<div id="topo">
+		<a href="../1-PaginaInicial/index.html">
+			<div id="guardalogo">
+				<img id="logotipo" src="../Imagens/logotipo.png">
+			</div>
+		</a>
+
+			<div id="guarda_redesocial">
+			<div class="redesocial">
+				<a href="https://www.instagram.com/distribuidora.frinorte/?hl=pt-br" target="_blank">
+					<img src="https://www.pngkey.com/png/full/283-2831746_insta-icon-instagram.png" class="redesocialimg"/>
+				</a>
+			</div>
+
+			<div class="redesocial">
+				<a href="https://api.whatsapp.com/send?phone=5592991942494" target="_blank">
+					<img src="https://cdn3.iconfinder.com/data/icons/popular-services-brands/512/whatsapp-512.png" class="redesocialimg"/>
+				</a>
+			</div>
+
+			<div class="redesocial">
+				<a href="https://www.facebook.com/distribuidorafrinorte" target="_blank">
+					<img src="https://facebookbrand.com/wp-content/uploads/2019/04/f_logo_RGB-Hex-Blue_512.png?w=512&h=512" class="redesocialimg"/>
+				</a>
+			</div>
+		</div>
+	</div>
+
+
+	<input type="checkbox" id="botao" name="">
+	<label for="botao">&#9776;</label>
+
+	<nav>
+		<ul>
+
+			<li><a href="">Sobre</a></li>
+        
+            <li><a href="">Notícias</a></li>
+	
+			<li><a href="">Onde ficar</a></li>
+
+				<li><a href="l">Onde comer</a></li>
+		
+			<li><a href="">O que fazer</a></li>
+
+				<li id="login_li"><a href="">Login</a></li>
+		</ul>
+	</nav>
+
+
+		<div id="guarda_info">
+			<div id="principal">
+				<img src="" id="imagens_passando">
+			</div>
+
+			<div class="distribuidora">
+			</div>
+
+			<div class="div_atacarejo">
+				<div class="fundo">
+					<div class="fundo1">
+					</div>
+				</div>
+
+				<div class="frente">
+					<div class="frente1">
+					</div>
+				</div>
+			</div>
+		</div>
+
+	
+
+	<div id="texto">
+				<p id="apresentalocal">
+				TEXTO TEXTO TEXTO TEXTO TEXTO </br>
+                TEXTO TEXTO TEXTO TEXTO TEXTO </br>
+                TEXTO TEXTO TEXTO TEXTO TEXTO </br>
+                TEXTO TEXTO TEXTO TEXTO TEXTO </br>
+                TEXTO TEXTO TEXTO TEXTO TEXTO </br>
+                TEXTO TEXTO TEXTO TEXTO TEXTO </br>
+				</p>
+
+				<p id="apresentasau">
+                    TEXTO TEXTO TEXTO TEXTO TEXTO </br>
+                    TEXTO TEXTO TEXTO TEXTO TEXTO </br>
+                    TEXTO TEXTO TEXTO TEXTO TEXTO </br>
+                    TEXTO TEXTO TEXTO TEXTO TEXTO </br>
+                    TEXTO TEXTO TEXTO TEXTO TEXTO </br>
+                    TEXTO TEXTO TEXTO TEXTO TEXTO </br>
+
+				<div id="linhadivisora"></div>
+	</div>
+
+
+	<div id="rodape">
+		
+	</div>
+
 </body>
 </html>
