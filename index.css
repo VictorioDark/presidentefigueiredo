@@ -49,7 +49,7 @@
     border:0.1px solid white;
     }
     
-    .div_atacarejo {
+    .inf2 {
     width: 30%;
     height: 200px;
     float: right;
@@ -58,7 +58,7 @@
     border: none;
     }
     
-    .distribuidora {
+    .inf1 {
     width: 30%;
     height: 200px;
     float: right;
@@ -67,7 +67,7 @@
     border: none;
     }
     
-    .div_atacarejo .frente {
+    .inf2 .frente {
     position: absolute;
     transform: rotateY(0deg);
     backface-visibility: hidden;
@@ -75,7 +75,7 @@
     background-color: black;
     }
     
-    .div_atacarejo .fundo {
+    .inf2 .fundo {
     position: absolute;
     transform: rotateY(180deg);
     backface-visibility: hidden;
@@ -93,13 +93,13 @@
     height: 200px;
     background: #FF5733;
     }
-    .div_atacarejo:hover .frente{
+    .inf2:hover .frente{
     transform: rotateY(-180deg);
     cursor: pointer;
     
     }
     
-    .div_atacarejo:hover .fundo{
+    .inf2:hover .fundo{
     transform: rotateY(0deg);
     cursor: pointer;
     
