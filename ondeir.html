@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+<script type="text/javascript">
+function slide1(){
+	document.getElementById('imagens_passando').src="https://abrilviagemeturismo.files.wordpress.com/2016/10/01010744_1i5i6i7c5c.jpeg?quality=70&strip=info&w=925"; 
+	document.getElementById('imagens_passando').style.filter="saturate(30%)";
+	document.getElementById('imagens_passando').style.transition="4s";
+	setTimeout("slide2()", 4000)
+}
+  
+function slide2(){
+	document.getElementById('imagens_passando').src="https://3.bp.blogspot.com/-4DI1snp8jJs/VRbwaeX8SEI/AAAAAAAAGgY/8DbvCm2hU-g/s1600/IMG_1898.JPG";
+	document.getElementById('imagens_passando').style.filter="saturate(100%)";
+	document.getElementById('imagens_passando').style.transition="4s";
+	setTimeout("slide3()", 4000)
+}
+  
+function slide3(){
+	document.getElementById('imagens_passando').src="https://www.seguindoviagem.com/wp-content/uploads/2017/07/lagoa-azul-presidente-figueiredo-24-640x480.jpg";
+	document.getElementById('imagens_passando').style.filter="saturate(30%)";
+	document.getElementById('imagens_passando').style.transition="4s";
+	setTimeout("slide4()", 4000)
+}
+
+function slide4(){
+	document.getElementById('imagens_passando').src="https://s2.glbimg.com/TDoXCzAYx4csTJzdrjr0ZXDTfW4=/0x0:620x465/984x0/smart/filters:strip_icc()/s.glbimg.com/jo/g1/f/original/2014/02/26/carnachoeira.jpg";
+	document.getElementById('imagens_passando').style.filter="saturate(100%)";
+	document.getElementById('imagens_passando').style.transition="4s";
+	setTimeout("slide1()", 4000)
+}
+</script>
+<head>
+	<link rel="stylesheet" type="text/css" media="screen and (min-width: 701px)" href="ondeir.css"/>
+
+	 <link rel="stylesheet" type="text/css" media="screen and (max-width: 700px) "href="ondeir.css"/>
+	
+	<!-- <link rel="stylesheet" type="text/css" media="screen and (min-width: 1050px)" href="indextablet.css"/> -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Nome do Site</title>
+	<link href="https://fonts.googleapis.com/css2?family=Cabin&display=swap" rel="stylesheet">
+</head>
+<body onload="slide1()">
+
+	<div id="topo">
+		<a href="../1-PaginaInicial/index.html">
+			<div id="guardalogo">
+				<img id="logotipo" src="../Imagens/logotipo.png">
+			</div>
+		</a>
+
+			<div id="guarda_redesocial">
+			<div class="redesocial">
+				<a href="" target="_blank">
+					<img src="https://www.pngkey.com/png/full/283-2831746_insta-icon-instagram.png" class="redesocialimg"/>
+				</a>
+			</div>
+
+			<div class="redesocial">
+				<a href="" target="_blank">
+					<img src="https://cdn3.iconfinder.com/data/icons/popular-services-brands/512/whatsapp-512.png" class="redesocialimg"/>
+				</a>
+			</div>
+
+			<div class="redesocial">
+				<a href="" target="_blank">
+					<img src="https://facebookbrand.com/wp-content/uploads/2019/04/f_logo_RGB-Hex-Blue_512.png?w=512&h=512" class="redesocialimg"/>
+				</a>
+			</div>
+		</div>
+	</div>
+
+
+	<input type="checkbox" id="botao" name="">
+	<label for="botao">&#9776;</label>
+
+	<nav>
+		<ul>
+
+			<li><a href="">Sobre</a></li>
+        
+            <li><a href="">Notícias</a></li>
+	
+			<li><a href="">Onde ficar</a></li>
+
+				<li><a href="l">Onde comer</a></li>
+		
+			<li><a href="">O que fazer</a></li>
+
+				<li id="login_li"><a href="">Login</a></li>
+		</ul>
+	</nav>
+
+    
+	<div class="setor">
+			
+		<div class="setorname">
+			<p>BEBIDAS</p>
+		</div>
+		
+		<div class="linhasetor"></div>
+
+	</div>
+
+
+
+	<div class="produtoss" id="firstprodutos">
+		<div class="produtosleft">
+			<img class="produtosimg" src="https://static.carrefour.com.br/medias/sys_master/images/images/hcc/hd4/h00/h00/17157420941342.jpg">
+			<div class="produtoname"><p>R$8,00</p></div>
+		</div>
+
+		<div class="produtosleft">
+			<img class="produtosimg" src="https://www.extrabom.com.br/uploads/produtos/350x350/13089_13089.jpg">
+				<div class="produtoname"><p>R$5,50</p></div>
+		</div>
+
+		<div class="produtosright">
+			<img class="produtosimg" src="https://savegnago.vteximg.com.br/arquivos/ids/278842-1000-1000/IOGURTE-NATURAL-NESTLE-170G.jpg?v=636281051161600000">
+				<div class="produtoname"><p>R$3,50</p></div>
+		</div>
+
+		<div class="produtosright">
+			<img class="produtosimg" src="https://ww2.clubeextra.com.br/img/uploads/1/855/449855.jpg?type=product">
+				<div class="produtoname"><p>R$6,70</p></div>
+		</div>
+	</div>
+
+
+	<div class="produtoss">
+		<div class="produtosleft">
+			<img class="produtosimg" src="https://static.carrefour.com.br/medias/sys_master/images/images/hd4/h13/h00/h00/10658797125662.jpg">
+			<div class="produtoname"><p>R$7,30</p></div>
+		</div>
+
+		<div class="produtosleft">
+			<img class="produtosimg" src="https://cdn-cosmos.bluesoft.com.br/products/7891515476212">
+				<div class="produtoname"><p>R$5,70</p></div>
+		</div>
+
+		<div class="produtosright">
+			<img class="produtosimg" src="https://superprix.vteximg.com.br/arquivos/ids/170530-292-292/Manteiga-Kreminas-com-Sal-200g.jpg?v=636094564152170000">
+				<div class="produtoname"><p>R$1,90</p></div>
+		</div>
+
+		<div class="produtosright">
+			<img class="produtosimg" src="https://www.gruposiberiann.com.br/img/produtos/produto_27.png">
+				<div class="produtoname"><p>R$6,60</p></div>
+		</div>
+	</div>
+	
+	<div id="rodape">
+		
+	</div>
+
+</body>
+</html>
