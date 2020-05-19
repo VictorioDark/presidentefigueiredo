@@ -2,35 +2,39 @@
 <html>
 <script type="text/javascript">
 function slide1(){
-	document.getElementById('imagens_passando').src="https://abrilviagemeturismo.files.wordpress.com/2016/10/01010744_1i5i6i7c5c.jpeg?quality=70&strip=info&w=925"; 
-	document.getElementById('imagens_passando').style.filter="saturate(30%)";
+	document.getElementById('imagens_passando').src="https://live.staticflickr.com/3297/3228418807_81230ac4c5_b.jpg"; 
+	document.getElementById('imagens_passando').style.filter="saturate(20%)";
 	document.getElementById('imagens_passando').style.transition="4s";
+	document.getElementById("p_waterfallname").innerHTML="CACHOEIRA DA ASFRAMA";
 	setTimeout("slide2()", 4000)
 }
   
 function slide2(){
-	document.getElementById('imagens_passando').src="https://3.bp.blogspot.com/-4DI1snp8jJs/VRbwaeX8SEI/AAAAAAAAGgY/8DbvCm2hU-g/s1600/IMG_1898.JPG";
+	document.getElementById('imagens_passando').src="https://media-cdn.tripadvisor.com/media/photo-s/0d/c3/ca/59/cachoeira-natal-2.jpg";
 	document.getElementById('imagens_passando').style.filter="saturate(100%)";
 	document.getElementById('imagens_passando').style.transition="4s";
+	document.getElementById("p_waterfallname").innerHTML="CACHOEIRA NATAL";
 	setTimeout("slide3()", 4000)
 }
   
 function slide3(){
-	document.getElementById('imagens_passando').src="https://www.seguindoviagem.com/wp-content/uploads/2017/07/lagoa-azul-presidente-figueiredo-24-640x480.jpg";
-	document.getElementById('imagens_passando').style.filter="saturate(30%)";
+	document.getElementById('imagens_passando').src="https://media-cdn.tripadvisor.com/media/photo-s/0c/d3/16/eb/photo0jpg.jpg";
+	document.getElementById('imagens_passando').style.filter="saturate(20%)";
 	document.getElementById('imagens_passando').style.transition="4s";
+	document.getElementById("p_waterfallname").innerHTML="CACHOEIRA DOS PÁSSAROS";
 	setTimeout("slide4()", 4000)
 }
 
 function slide4(){
-	document.getElementById('imagens_passando').src="https://s2.glbimg.com/TDoXCzAYx4csTJzdrjr0ZXDTfW4=/0x0:620x465/984x0/smart/filters:strip_icc()/s.glbimg.com/jo/g1/f/original/2014/02/26/carnachoeira.jpg";
+	document.getElementById('imagens_passando').src="https://cdn-0.maladeaventuras.com/wp-content/uploads/2017/12/DJI_0116-750x400.jpg";
 	document.getElementById('imagens_passando').style.filter="saturate(100%)";
+	document.getElementById("p_waterfallname").innerHTML="CACHOEIRA PEDRA FURADA";
 	document.getElementById('imagens_passando').style.transition="4s";
 	setTimeout("slide1()", 4000)
 }
 </script>
 <head>
-	<link rel="stylesheet" type="text/css" media="screen and (min-width: 701px)" href="index.css"/>
+	<link rel="stylesheet" type="text/css" media="screen and (min-width: 701px)" href="CSSDESKTOP/index.css"/>
 
 	 <link rel="stylesheet" type="text/css" media="screen and (max-width: 700px) "href="indexmobile.css"/>
 	
@@ -52,19 +56,19 @@ function slide4(){
 			<div id="guarda_redesocial">
 			<div class="redesocial">
 				<a href="" target="_blank">
-					<img src="https://www.pngkey.com/png/full/283-2831746_insta-icon-instagram.png" class="redesocialimg"/>
+					<img src="https://w7.pngwing.com/pngs/373/994/png-transparent-computer-icons-facebook-button-taxi-logos-logo-black-and-white-symbol.png" class="redesocialimg"/>
 				</a>
 			</div>
 
 			<div class="redesocial">
 				<a href="" target="_blank">
-					<img src="https://cdn3.iconfinder.com/data/icons/popular-services-brands/512/whatsapp-512.png" class="redesocialimg"/>
+					<img src="https://image.flaticon.com/icons/png/512/49/49411.png" class="redesocialimg"/>
 				</a>
 			</div>
 
 			<div class="redesocial">
 				<a href="" target="_blank">
-					<img src="https://facebookbrand.com/wp-content/uploads/2019/04/f_logo_RGB-Hex-Blue_512.png?w=512&h=512" class="redesocialimg"/>
+					<img src="https://cdn.clipart.email/16b424d7fb8cc80f647ba26a27ce875a_filecis-a2k-instagram-icon-blacksvg-wikimedia-commons_768-768.png"  class="redesocialimg"/>
 				</a>
 			</div>
 		</div>
@@ -77,17 +81,17 @@ function slide4(){
 	<nav>
 		<ul>
 
-			<li><a href="">Sobre</a></li>
+			<li><a href="sobre.html">Sobre</a></li>
         
-            <li><a href="">Notícias</a></li>
+            <li><a href="noticias.html">Notícias</a></li>
 	
-			<li><a href="">Onde ficar</a></li>
+			<li><a href="ondeficar.html">Onde ficar</a></li>
 
-				<li><a href="l">Onde comer</a></li>
+				<li><a href="ondecomer.html">Onde comer</a></li>
 		
-			<li><a href="">O que fazer</a></li>
+			<li><a href="oquefazer.html">O que fazer</a></li>
 
-				<li id="login_li"><a href="">Login</a></li>
+				<li id="login_li"><a href="login.html">Login</a></li>
 		</ul>
 	</nav>
 
@@ -95,6 +99,9 @@ function slide4(){
 		<div id="guarda_info">
 			<div id="principal">
 				<img src="" id="imagens_passando">
+				<div id="div_waterfallname">
+					<p id="p_waterfallname">NOME DA CACHOEIRA</p>
+				</div>
 			</div>
 
 			<div class="inf1">

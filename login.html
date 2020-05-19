@@ -1,21 +1,33 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<link rel="stylesheet" type="text/css" href="CSSDESKTOP/login.css"/>
+
 	<title></title>
 </head>
-<body>
+<body background="https://images6.alphacoders.com/601/thumb-1920-601846.jpg" style=" background-size: cover;">
 
-	<form action="login.php" method="get">
-		<center>
-		<label>Email:</label>
-		<input type="text" name="email" class="campos">
-
+	<div id="div_login">
+		<form action="login.php" method="get">
 	
-		<label>Senha:</label>
-		<input type="text" name="senha" class="campos">
+		
+			<div class="div_inputkepper" id="div_inputkepper1">
+				<img src="data:image/png;base64,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"/>
+				<input type="text" name="email" class="input_fields" id="input_email" placeholder="                Email">
+			</div>
+				
+			<div class="div_inputkepper">	
+				<img src="https://image.flaticon.com/icons/png/512/63/63440.png"/>
+				<input type="text" name="senha" class="input_fields" placeholder="                Senha">
+			</div>
 
-		<input type="submit" name="" class="campos" id="botao" value="entrar">
-		</center>
-	</form>
+
+			<input type="submit" name="" class="campos" id="input_button" value="Entrar">
+			
+			<a href="cadastro.html">
+				<p id="p_noaccount"> Não tenho conta!</p>
+			</a>
+			</form>
+	</div>
 </body>
 </html>
